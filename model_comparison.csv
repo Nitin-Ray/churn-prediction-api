@@ -1,0 +1,4 @@
+model,cv_auc,test_auc,test_pr_auc,threshold,precision,recall,business_cost,best_params
+LogisticRegression,0.8455,0.8416,0.633,0.37,0.457,0.904,27250,{'clf__C': 0.1}
+RandomForest,0.8475,0.8435,0.6494,0.37,0.454,0.877,28900,"{'clf__max_depth': 6, 'clf__min_samples_leaf': 3, 'clf__n_estimators': 200}"
+GradientBoosting,0.849,0.8443,0.662,0.2,0.475,0.837,29500,"{'clf__learning_rate': 0.05, 'clf__max_depth': 2, 'clf__n_estimators': 200}"
